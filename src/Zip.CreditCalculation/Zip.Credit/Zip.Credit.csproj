@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Zip.CreditCalculation\Zip.CreditCalculation.csproj" />
+    <ProjectReference Include="..\Zip.Domain\Zip.Data.csproj" />
+  </ItemGroup>
+
+</Project>
